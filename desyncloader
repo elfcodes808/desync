@@ -2,10 +2,14 @@ local gameId = game.PlaceId
 -- basketball legends
 local basketball1 = 14259168147
 local basketball2 = 4931927012
+local Strongmansim = 6766156863
 
 if gameId == basketball1 then
   loadstring(game:HttpGet("https://raw.githubusercontent.com/elfcodes808/-/refs/heads/main/BL"))()
 else if gameId == basketball2 then
   loadstring(game:HttpGet("https://raw.githubusercontent.com/elfcodes808/-/refs/heads/main/BL"))()
+else if gameId == Strongmansim then
+  loadstring(game:HttpGet("https://raw.githubusercontent.com/Skinnypopbo/Strongmansim/refs/heads/main/strength"))()
+    end
   end
 end
