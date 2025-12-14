@@ -3,7 +3,6 @@ local gameId = game.PlaceId
 local basketball1 = 14259168147
 local basketball2 = 4931927012
 
-
 if gameId == basketball1 then
   loadstring(game:HttpGet("https://raw.githubusercontent.com/elfcodes808/-/refs/heads/main/BL"))()
 else if gameId == basketball2 then
