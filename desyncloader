@@ -24,6 +24,7 @@ else if gameId == arcade1 then
   loadstring(game:HttpGet("https://raw.githubusercontent.com/Skinnypopbo/Arcadebasketball/refs/heads/main/basketball"))()
 else if gameId == arcade2 then
   loadstring(game:HttpGet("https://raw.githubusercontent.com/Skinnypopbo/Arcadebasketball/refs/heads/main/basketball"))()
+            end
           end
         end
       end
