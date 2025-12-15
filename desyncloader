@@ -5,6 +5,10 @@ local basketball2 = 4931927012
 local basketball3 = 14386691987
 local basketball4 = 71832465156084
 local Strongmansim = 6766156863
+local arcade1 = 134558434771720
+local arcade2 = 130736793665498
+
+
 
 if gameId == basketball1 then
   loadstring(game:HttpGet("https://raw.githubusercontent.com/elfcodes808/-/refs/heads/main/BL"))()
@@ -16,6 +20,11 @@ else if gameId == basketball4 then
   loadstring(game:HttpGet("https://raw.githubusercontent.com/elfcodes808/-/refs/heads/main/BL"))()
 else if gameId == Strongmansim then
   loadstring(game:HttpGet("https://raw.githubusercontent.com/Skinnypopbo/Strongmansim/refs/heads/main/strength"))()
+else if gameId == arcade1 then
+  loadstring(game:HttpGet("https://raw.githubusercontent.com/Skinnypopbo/Arcadebasketball/refs/heads/main/basketball"))()
+else if gameId == arcade2 then
+  loadstring(game:HttpGet("https://raw.githubusercontent.com/Skinnypopbo/Arcadebasketball/refs/heads/main/basketball"))()
+          end
         end
       end
     end
