@@ -7,6 +7,7 @@ local basketball4 = 71832465156084
 local Strongmansim = 6766156863
 local arcade1 = 134558434771720
 local arcade2 = 130736793665498
+local bones = 123821081589134
 
 
 
@@ -24,6 +25,9 @@ else if gameId == arcade1 then
   loadstring(game:HttpGet("https://raw.githubusercontent.com/Skinnypopbo/Arcadebasketball/refs/heads/main/basketball"))()
 else if gameId == arcade2 then
   loadstring(game:HttpGet("https://raw.githubusercontent.com/Skinnypopbo/Arcadebasketball/refs/heads/main/basketball"))()
+else if gameId == bones then
+  loadstring(game:HttpGet("https://raw.githubusercontent.com/Skinnypopbo/Breakyourbones/refs/heads/main/Bones"))()
+              end
             end
           end
         end
